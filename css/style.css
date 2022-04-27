@@ -5,10 +5,65 @@
 }
 
 body {
+  height: 100vh;
   font-family: "Fredoka", sans-serif;
   font-size: 16px;
+  background-color: black;
 }
 
 main {
 	
+}
+
+
+/* FLEX FLEX FLEX FLEX FLEX FLEX FLEX FLEX */
+.flex-row {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+
+/* COLORS COLORS COLORS COLORS COLORS COLORS */
+.bg-black {
+  background-color: black;
+}
+
+
+/* SPECIFIC SPECIFIC SPECIFIC SPECIFIC SPECIFIC */
+header {
+  height: 5vh;
+}
+
+footer {
+  height: 10vh;
+  background-color: rgb(87, 87, 87);
+}
+
+#header-bar {
+  height: 100%;
+  padding: 0.5em 0.25em;
+}
+
+#main-section {
+  padding: 3em 4em 2em;
+}
+
+.header-btn {
+  padding: 5px;
+  border: none;
+  border-radius: 6px;
+  margin-left: 3px;
+  color: white;
+  background-color: rgb(87, 87, 87);
+}
+
+.header-icon {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+}
+
+.header-btn-txt {
+  vertical-align: middle;
 }
